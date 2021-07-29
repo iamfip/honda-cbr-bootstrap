@@ -7,7 +7,6 @@
     border-radius: 5px;
     padding: 10px 20px;
     color:#fff;
-
 }
 .fetured-gray img{
     -webkit-filter: grayscale(100%); 
@@ -20,6 +19,7 @@
     color:
 }
 .card:hover{
-    outline: blue solid 4px;
+    outline: purple solid 4px;
 }
+
 
