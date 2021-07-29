@@ -52,7 +52,8 @@
                     <p class="fw-light">The Honda CBR250R, CBR300R and CB300F are lightweight 249.5–286 cc (15.23–17.45
                         cu in) displacement single-cylinder motorcycles made by Honda since 2011.</p>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn hero-button " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="btn hero-button " data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
                         Purchase
                     </button>
 
@@ -67,7 +68,8 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                   <h4 class="text-dark"> Hi Are you want to buy this bike now ?? Then you are getting 20% off!!</h4> 
+                                    <h4 class="text-dark"> Hi Are you want to buy this bike now ?? Then you are getting
+                                        20% off!!</h4>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
@@ -94,7 +96,7 @@
         <!-- featured Bike 2021  -->
         <section class="container ">
             <div class="text-center mt-5 ">
-                <h1>Feured Bikes 2021
+                <h1>Featured bike 2021
                 </h1>
                 <h5 class="text-danger">Best bike collection</h5>
             </div>
@@ -102,7 +104,7 @@
             <!-- Fetured bike card  -->
 
             <div class="container">
-                <div class=" row g-5 m-5 p-3">
+                <div class=" row g-4 m-5 p-3">
                     <div class="col-lg-4 col-sm-12">
                         <div class="w-75 fetured-gray">
                             <img src="images/feature-bike.jpg" class="card-img-top" alt="...">
@@ -292,7 +294,55 @@
                 </div>
             </div>
         </section>
+        <!-- __________________carosel___________________ -->
 
+<section class="container my-5">
+    <h1 class="text-center ">Our Upcoming Models</h1>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/modal/img1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Rider</h5>
+                    <p>Go with me and Have fun.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/modal/img2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Pleasure 360</h5>
+                    <p>Lets break all rules together</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/modal/img3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>The Beast</h5>
+                    <p> Speed like Light .</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+        <!-- -------------------------------------Form fill up -->
         <section class="form-fill-up">
             <h1 class="text-center text-danger p-5 fw-bold">Pre Book now for <span class="text-info">10% off*</span>
                 Next Bike ! </h1>
@@ -324,22 +374,37 @@
             </div>
 
         </section>
-        <!------------------------------------------
-                            LIght Box              
-        -------------------------------------------->
+
 
     </main>
 
     <!-- footer section  -->
-    <footer>
-        <div class="row footer-bg">
-            <div class="col-lg-10 col-md-10 col-sm-12">
+    <footer class="container-fluid">
+        <div class="row footer-bg pt-5 ">
+            <div class=" col-lg-8 col-md-8 col-sm-12 text-white">
+                <div class="container  ps-lg-5">
+                    <div class="d-inline-flex ">
+                        <h6 class="pe-5">Download Now </h6>
+                        <h6>License</h6>
+                    </div>
+                    <div class="row pt-4 ">
+
+                        <a href="#" class="col-lg-1 text-decoration-none  text-white-50">Home</a>
+                        <a href="#" class="col-lg-1 text-decoration-none text-white-50">featured</a>
+                        <a href="#" class="col-lg-1 text-decoration-none text-white-50">Pricing</a>
+                        <a href="#" class="col-lg-1 text-decoration-none text-white-50">Careers</a>
+                        <a href="#" class="col-lg-1 text-decoration-none text-white-50">Help</a>
+                        <a href="#" class="col-lg-2 text-decoration-none text-white-50">Privvacy Policy</a>
+
+                        <p class="pt-4">© 2020 bike. All rights reserved</p>
+                    </div>
+                </div>
 
             </div>
-            <div class="col-lg-3 col-md-3 col-sl-12 d-flex flex-column  ">
-                <h5 class="text-white">Get the App</h5>
-                <img src="images/playstore.png" alt="" width="">
-                <img src="images/apple.jpg" alt="" width="">
+            <div class="col-lg-4 col-md-4 col-sl-12 d-flex flex-column  ">
+                <h5 class="text-white ">Get the App</h5>
+                <img src="images/playstore.png" alt="" class="w-50 pb-2">
+                <img src="images/apple.jpg" alt="" class="w-50 pb-2">
 
             </div>
         </div>
