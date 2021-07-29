@@ -9,3 +9,17 @@
     color:#fff;
 
 }
+.fetured-gray img{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+  }
+.orangee-text{
+    color: #E76F51;
+}
+.user{
+    color:
+}
+.card:hover{
+    outline: blue solid 4px;
+}
+
