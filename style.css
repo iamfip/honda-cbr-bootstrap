@@ -1,0 +1,11 @@
+.bg-banner{
+    background-color: #264653;
+    color:white;
+}
+.hero-button{
+    background-color:  #E76F51;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color:#fff;
+
+}
