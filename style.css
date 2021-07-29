@@ -22,4 +22,14 @@
     outline: purple solid 4px;
 }
 
+.footer-bg{
+    background: #0B0D17;
+}
 
+.form-fill-up{
+    background-image: url(images/form.jpg);
+    background-size: cover;
+}
+.rider{
+    color:#55efc4
+}
